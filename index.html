@@ -11,22 +11,35 @@
     <body>
         <!-- Header Starts -->
         <div class="header">
-            <a class="top-links" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_top">Gmail</a>
-            <a class="top-links" href="imageSearch.html" target="_top">Images</a>
+            <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_top">Gmail</a>
+            <a href="imageSearch.html" target="_top">Images</a>
             <span class="material-icons header_apps">apps</span>
             <span class="material-icons">account_circle</span>
         </div>
         <!-- Header Ends -->
 
-        <div>
-            <form action="https://google.com/search" method='GET'>
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
-            </form>
+        <!-- Middle Starts -->
+        <div class="middle">
+            <!-- Google Logo -->
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
+
+            <!-- Search Starts -->
+            <div class="search">
+                <form action="https://google.com/search" method='GET'>
+                    <div class="search_input">
+                        <span class="material-icons">search</span>
+                        <input type="text" name="q">
+                        <span class="material-icons">mic</span>
+                    </div>
+                    <div class="search_buttons">
+                        <input type="submit" value="Google Search">
+                        <input type="submit" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+            </div>
+            <!-- Search Ends -->
         </div>
-
+        <!-- Middle Ends-->
         
-
     </body>
 </html>
