@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+// Header
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.header a {
+    margin-right: 20px;
+    color: #222;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    text-decoration: inherit;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header a:visited {
+    color: #609;
+}
+
+.header_apps {
+    margin-right: 10px;
+}
