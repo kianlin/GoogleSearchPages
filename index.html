@@ -5,27 +5,28 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
             rel="stylesheet">
         <link rel="stylesheet" href="style.css" />
-
         <title>Google</title>
     </head>
     <body>
         <!-- Header Starts -->
         <div class="header">
-            <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_top">Gmail</a>
-            <a href="imageSearch.html" target="_top">Images</a>
-            <span class="material-icons header_apps">apps</span>
-            <span class="material-icons">account_circle</span>
+            <div class="header_left"></div>
+            <div class="header_right">
+                <a href="advancedSearch.html" target="_top">Advanced Search</a>
+                <a href="imageSearch.html" target="_top">Images</a>
+                <span class="material-icons header_apps">apps</span>
+                <a class="signin" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_top">Sign in</a>
+            </div>
         </div>
         <!-- Header Ends -->
 
         <!-- Middle Starts -->
         <div class="middle">
-            <!-- Google Logo Starts -->
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
-            <!-- Google Logo Ends -->
-
-            <!-- Search Starts -->
+            <!-- Image Search Starts -->
             <div class="search">
+                <!-- Google Logo Starts -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
+                <!-- Google Logo Ends -->                     
                 <form action="https://google.com/search" method='GET'>
                     <div class="search_input">
                         <span class="material-icons">search</span>
@@ -33,15 +34,23 @@
                         <span class="material-icons">mic</span>
                     </div>
                     <div class="search_buttons">
-                        <input type="submit" value="Google Search">
-                        <input type="submit" value="I'm Feeling Lucky">
+                        <input type="submit" name = "btnK" value="Google Search">
+                        <input type="submit" name = "btnI" value="I'm Feeling Lucky">
                     </div>
                 </form>
+                <!-- Language Offered Starts -->
+                <div class="languages">
+                    <p>Google offered in:</p>
+                    <div class="language-type">
+                        <a href="">中文(简体)</a>
+                        <a href="">Bahasa Melayu</a>
+                        <a href="">தமிழ்</a>
+                    </div>
+                </div>
+                <!-- Language Offered Ends -->
             </div>
-            <!-- Search Ends -->
-
+            <!-- Image Search Ends -->
         </div>
         <!-- Middle Ends-->
-        
     </body>
 </html>
