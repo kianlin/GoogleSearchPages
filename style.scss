@@ -7,6 +7,7 @@
 $body-font: Helvetica, Arial, sans-serif;
 $default-font-size: 14px;
 $google-blue: #4c8bf5;
+$google-red: #de5246;
 $google-darkgray: #5F6368;
 $languages-color: #1a2bca;
 
@@ -164,6 +165,14 @@ body {
 
             .rightSearch {
                 color: #4c8bf5;
+            }
+
+            button {
+                background-color: white;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
 

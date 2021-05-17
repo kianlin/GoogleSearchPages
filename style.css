@@ -91,12 +91,12 @@ body .title-bar {
 }
 
 .header .signin {
-  cursor: pointer;
   color: #fff;
   background: #1a73e8;
   border: 1px solid transparent;
+  border-radius: 4px;
   text-decoration: none;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: .25px;
@@ -107,9 +107,9 @@ body .title-bar {
   padding: 9px 23px;
   text-align: center;
   vertical-align: middle;
-  border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  cursor: pointer;
 }
 
 .header .signin:active {
@@ -187,6 +187,14 @@ body .title-bar {
 
 .middle .search .search_input .rightSearch {
   color: #4c8bf5;
+}
+
+.middle .search .search_input button {
+  background-color: white;
+}
+
+.middle .search .search_input button:hover {
+  cursor: pointer;
 }
 
 .middle .search .search_buttons {
